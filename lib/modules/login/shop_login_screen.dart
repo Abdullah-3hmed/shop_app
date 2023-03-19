@@ -60,10 +60,12 @@ class ShopLoginScreen extends StatelessWidget {
                       children: [
                         Text(
                           'LOGIN',
-                          style:
-                              Theme.of(context).textTheme.headlineMedium!.copyWith(
-                                    color: Colors.black,
-                                  ),
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineMedium!
+                              .copyWith(
+                                color: Colors.black,
+                              ),
                         ),
                         Text(
                           'login now to browse our hot offers ',
